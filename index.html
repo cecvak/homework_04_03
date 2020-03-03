@@ -16,9 +16,9 @@
             <nav class="page_navigation">
                 <a class="link" href="#"><img src="images/logo.png" class="logo" alt="Fluffy Logo"></a>
                 <ul class="navigation_links">
-                    <li class="navigation_link"><a class="link" href="#">Services</a></li>
-                    <li class="navigation_link"><a class="link" href="#">About</a></li>
-                    <li class="navigation_link"><a class="link" href="#">Contact</a></li>
+                    <li class="navigation_link"><a class="link" href="#services">Services</a></li>
+                    <li class="navigation_link"><a class="link" href="#about">About</a></li>
+                    <li class="navigation_link"><a class="link" href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
@@ -30,7 +30,7 @@
         </header>
     </section>
 
-    <section class="page_services">
+    <section class="page_services" id="services">
         <div class="services_head">
             <p class="text text_medium text_blue">Our Services</p>
             <h2 class="services_head_h2">Why choose Agency theme</h2>
@@ -51,7 +51,8 @@
                     Award Winning Design
                 </p>
                 <p class="text services_content_text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit in erat nec fermentum. Aliquam rutrum vestibulum.                </p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas hendrerit in erat nec fermentum. Aliquam rutrum vestibulum.
+                </p>
             </div>
             <div class="services_content_box">
                 <img src="images/icon-online-support.png" class="icon" alt="">
@@ -86,7 +87,7 @@
         </div>
     </section>
 
-    <section class="page_about">
+    <section class="page_about" id="about">
         <div class="about_head">
             <p class="text text_medium text_blue"> Robust Agency</p>
             <h3 class="about_head_h3">About Us</h3>
@@ -98,14 +99,18 @@
                     <br><br>
                 </p>
                 <p class="text about_content_text">
-                    We’re a website development studio focussed on creating immersive digital strategies for your business that take established brands to new heights and launch ambitious start-ups towards their goals.                
+                    We’re a website development studio focussed on creating immersive digital strategies for your business that take established brands to new heights and 
+                    launch ambitious start-ups towards their goals.                
                 </p>
             </div>
             <div class="about_content_column_right">
                 <p class="text about_content_text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo consequat tempor. Nam gravida sed ipsum in pellentesque. Cras pellentesque placerat cursus. Ut ultrices ultricies finibus. Donec rutrum felis convallis, efficitur tellus sit amet, tristique metus. Integer eget sagittis urna.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo consequat tempor. Nam gravida sed ipsum in pellentesque. Cras 
+                    pellentesque placerat cursus. Ut ultrices ultricies finibus. Donec rutrum felis convallis, efficitur tellus sit amet, tristique metus. Integer eget 
+                    sagittis urna.
                     <br><br>
-                    Aenean et facilisis mi, ut posuere eros. Vivamus nec velit at diam pretium blandit id nec urna. Aenean dignissim vehicula sapien ut vehicula. Aliquam gravida metus non ullamcorper vestibulum. Mauris lobortis purus at diam posuere, at molestie massa lobortis.            
+                    Aenean et facilisis mi, ut posuere eros. Vivamus nec velit at diam pretium blandit id nec urna. Aenean dignissim vehicula sapien ut vehicula. Aliquam 
+                    gravida metus non ullamcorper vestibulum. Mauris lobortis purus at diam posuere, at molestie massa lobortis.            
                 </p>
             </div>
         </div>
@@ -122,7 +127,8 @@
         <div class="relax_content">
             <div class="relax_content_text">
                 <h3 class="relax_h3">Please Relax, we will do the work.</h3>
-                <p class="text text_relax ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo consequat tempor. Nam gravida sed ipsum in pellentesque. Cras pellentesque placerat cursus.</p>
+                <p class="text text_relax ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi iaculis nisl vulputate justo consequat tempor. Nam gravida sed 
+                    ipsum in pellentesque. Cras pellentesque placerat cursus.</p>
                 <p class="text text_relax_check"><i class="material-icons icon_check">
                     check
                     </i>
@@ -149,20 +155,21 @@
             <div class="start_content">
                 <p class="text text_start">An Agency That Helps You</p>
                 <p class="text text_start text_start_large">Start Building your Website today</p>
-                <p class="text text_start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices purus lectus, et accumsan nibh suscipit sed. Nullam lorem dui, congue pharetra posuere vel, imperdiet ac lorem.</p>
-                <button class="button_small button_small_blue">Get Started Now</button>
+                <p class="text text_start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices purus lectus, et accumsan nibh suscipit sed. 
+                    Nullam lorem dui, congue pharetra posuere vel, imperdiet ac lorem.</p>
+                <button class="button button_small button_small_blue">Get Started Now</button>
         </div>
     </section>
 
     <footer class="page_footer">
         <div class="footer_form_container">
-            <h2 class="footer_h2">Contact Us</h2>
+            <h2 class="footer_h2" id="contact">Contact Us</h2>
             <form action="" class="footer_form">
                 <div class="form_info_container">
                     <label for="name" class="label text">Full Name</label><br>
-                    <input type="text" name="name" id="name" class="inputbox" placeholder="Ram Kaji" required autofocus><br>
+                    <input type="text" name="name" id="name" class="inputbox" placeholder="Ram Kaji" required><br>
                     <label for="email" class="label text">Your Email Address</label><br>
-                    <input type="text" name="email" id="email" class="inputbox" placeholder="hello@lastdoor.store" required><br>
+                    <input type="email" name="email" id="email" class="inputbox" placeholder="hello@lastdoor.store" required><br>
                     <label for="message" class="label text">Your Message</label><br>
                     <textarea name="message" id="message" class="textarea" placeholder="Type your message here" required></textarea><br>
                 </div>
